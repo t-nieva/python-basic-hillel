@@ -1,7 +1,7 @@
 # Python Basic — Hillel Course
 
 📅 Start: 2024-05-20  
-👩‍💻 Student: Tetiana Niehrieieva
+👩‍💻 Student: Tetiana Niehrieieva  
 👩‍💻 Teacher: Evgeniy Arefa
 https://github.com/ArefaEvgeniy/Hillel
 
