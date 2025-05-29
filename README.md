@@ -2,6 +2,8 @@
 
 📅 Start: 2024-05-20  
 👩‍💻 Student: Tetiana Niehrieieva
+👩‍💻 Teacher: Evgeniy Arefa
+https://github.com/ArefaEvgeniy/Hillel
 
 ## Topics covered:
 1. [x] Введення в Python
