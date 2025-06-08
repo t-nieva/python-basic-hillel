@@ -5,14 +5,14 @@ test_list_4 = [9, 0, 7, 31, 0, 45, 0, 45, 0, 45, 0, 0, 96, 0]
 
 
 def test(test_list):
-    i = 0
-    n = len(test_list)
-    for _ in range(n):
-        if test_list[i] == 0:
-            test_list.pop(i)
-            test_list.append(0)
-        else:
-            i += 1
+    insert_position = 0
+    for i, el in enumerate(test_list):
+        if el != 0:
+            test_list[insert_position] = el
+            insert_position += 1
+
+    for i in range(insert_position, len(test_list)):
+        test_list[i] = 0
     print(test_list)
 
 
