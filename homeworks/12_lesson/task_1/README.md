@@ -1,5 +1,4 @@
 # 12.1. Очистити текст від html-тегів
-
 Ваше завдання написати функцію, яка прочитає заданий файл,
 очистить текст від html-тегів і запише цей текст в інший файл.
 
@@ -22,7 +21,3 @@ def delete_html_tags(html_file, result_file='cleaned_example.txt'):
       with codecs.open(html_file, 'r', 'utf-8') as file: 
            html = file.read()
 ```
-
-
-
-[//]: # (kjzdzdsgsh)
