@@ -8,6 +8,10 @@ class Group:
         self.number = number
         self.group = set()  # множина об'єктів Student
 
+    def __str__(self):
+        all_students = "\n\n".join(str(student) for student in self.group)
+        return f"Number:{self.number}\n\n{all_students}"
+
     def add_student(self, student):
         if len(self.group) >= 10:
             raise TooManyStudentsError(
@@ -27,7 +31,3 @@ class Group:
             if student.last_name == last_name:
                 return student
         return None
-
-    def __str__(self):
-        all_students = "\n\n".join(str(student) for student in self.group)
-        return f"Number:{self.number}\n\n{all_students}"

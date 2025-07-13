@@ -9,3 +9,11 @@ class Student(Human):
 
     def __str__(self):
         return super().__str__() + f"\nRecord book: {self.record_book}"
+
+    def __eq__(self, other):
+        if str(self) == str(other):
+            return True
+        return False
+
+    def __hash__(self):
+        return hash(str(self))
