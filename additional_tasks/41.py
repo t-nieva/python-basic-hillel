@@ -16,10 +16,6 @@ def compose_functions(functions_list, value):
     return value
 
 
-# add_one = lambda x: x + 1
-# double = lambda x: x * 2
-# subtract_three = lambda x: x - 3
-# functions = [add_one, double, subtract_three]
 functions = [lambda x: x + 1, lambda x: x * 2, lambda x: x - 3]
 print(compose_functions(functions, 5))
 
